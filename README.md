@@ -1,5 +1,7 @@
 # Icon.svg 生成 webfonts 及项目引入
 
+#### 项目地址 [https://github.com/hotmaycold/svg2webFonts](https://github.com/hotmaycold/svg2webFonts)
+
 > 雪碧图一直是前端对于icon处理的普遍方式，对于icon的存储以及使用方式一直随着技术的更新而变化，本文将介绍相对流行的 `webfont` 技术的原理及使用
 
 ## 原理
