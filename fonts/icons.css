@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?5abc260afe1fb00af7f4a3ad54677bcb?#iefix") format("embedded-opentype"),
+url("./icons.woff2?5abc260afe1fb00af7f4a3ad54677bcb") format("woff2"),
+url("./icons.woff?5abc260afe1fb00af7f4a3ad54677bcb") format("woff"),
+url("./icons.ttf?5abc260afe1fb00af7f4a3ad54677bcb") format("truetype"),
+url("./icons.svg?5abc260afe1fb00af7f4a3ad54677bcb#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-avatar:before {
+    content: "\f101";
+}
+.icon-envelope:before {
+    content: "\f102";
+}
+.icon-phone-call:before {
+    content: "\f103";
+}
